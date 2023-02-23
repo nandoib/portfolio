@@ -195,13 +195,6 @@ function App() {
           <div class=" md:max-w-xl  xl:max-w-3xl  rounded-lg  shadow-lg dark:bg-neutral-700 border-2 p-2 border-bleuPastel">
             <div className="grid grid-cols-5 justify-items-center ">
               <div>
-                <div class=" inline-block m-1 bg-bleuPastel  text-center align-baseline  rounded-full font-boldtext-primary-700">
-                  <NodeJsLottie size="little" />
-                </div>
-                <p className="text-center text-sm">NodeJS </p>
-              </div>
-
-              <div>
                 <div class="inline-block m-1 bg-rosePastel text-center align-baseline  rounded-full font-boldtext-primary-700">
                   <ReactLottie size="little" />
                 </div>
@@ -219,13 +212,10 @@ function App() {
                 mails sans back.
               </p>
               <div className="grid self-end justify-items-center lg:mt-24 xl:mt-30">
-                <a
-                  target="_blank"
-                  href="https://github.com/nandoib/liste-attente-back"
-                >
+                <a target="_blank" href="https://github.com/nandoib/portfolio">
                   <button
                     type="button"
-                    className=" bg-rosePastel p-2 rounded-md "
+                    className=" bg-bleuPastel p-2 rounded-md "
                   >
                     Voir Projet
                   </button>
@@ -235,7 +225,7 @@ function App() {
           </div>
         </div>
         <div class="flex justify-center p-2 xl:w-4/12 lg:w-6/12   ">
-          <div class=" md:max-w-xl  xl:max-w-3xl  rounded-lg  shadow-lg dark:bg-neutral-700 border-2 p-2 border-bleuPastel">
+          <div class=" md:max-w-xl  xl:max-w-3xl  rounded-lg  shadow-lg dark:bg-neutral-700 border-2 p-2 border-rosePastel">
             <div className="grid grid-cols-5 justify-items-center ">
               <div>
                 <div class="inline-block m-1 bg-rosePastel text-center align-baseline  rounded-full font-boldtext-primary-700">
@@ -243,9 +233,15 @@ function App() {
                 </div>
                 <p className="text-center text-sm">ReactJS </p>
               </div>
+              <div>
+                <div class=" inline-block m-1 bg-rosePastel  text-center align-baseline  rounded-full font-boldtext-primary-700">
+                  <NodeJsLottie size="little" />
+                </div>
+                <p className="text-center text-sm">NodeJS </p>
+              </div>
             </div>
             <div class="p-2">
-              <h5 class="mb-2 p-4 rounded-md text-center text-md bg-bleuPastel font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+              <h5 class="mb-2 p-4 rounded-md text-center text-md bg-rosePastel font-medium leading-tight text-neutral-800 dark:text-neutral-50">
                 Plateforme de Gestion de patientèle pour professions médicales
               </h5>
               <p class="mb-4  text-sm text-neutral-600 dark:text-neutral-200">
@@ -313,41 +309,7 @@ function App() {
                 >
                   <button
                     type="button"
-                    className=" bg-rosePastel p-2 rounded-md "
-                  >
-                    Voir Projet
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex justify-center p-2 xl:w-4/12 lg:w-6/12   ">
-          <div class=" rounded-lg shadow-lg  border-2 p-2 border-rosePastel md:max-w-xl">
-            <div className="grid grid-cols-5 justify-items-center ">
-              <div>
-                <div class=" inline-block m-1 bg-bleuPastel text-center align-baseline  rounded-full ">
-                  <WordpressLottie size="little" />
-                </div>
-                <p className="text-center text-sm">Wordpress</p>
-              </div>
-            </div>
-            <div class="p-2">
-              <h5 class="mb-2 p-4 rounded-md text-center text-md bg-rosePastel font-medium  ">
-                AGS Façade
-              </h5>
-              <p class="mb-4 text-sm">
-                J'ai eu la chance de pouvoir travailler sur la communication de
-                l'entreprise AGS Group. Pour le site web, j'ai créé l'identité
-                visuelle ainsi que la charte graphique. Le site tourne sur
-                Wordpress et Elementor. Pour réaliser l'animation en page
-                d'accueil, j'ai utilisé l'extension Slider Révolution.
-              </p>
-              <div className="grid  justify-items-center">
-                <a target="_blank" href="https://isolexmoselle.fr/">
-                  <button
-                    type="button"
-                    className=" bg-rosePastel p-2 rounded-md "
+                    className=" bg-orangePastel p-2 rounded-md "
                   >
                     Voir Projet
                   </button>
@@ -368,6 +330,40 @@ function App() {
             </div>
             <div class="p-2">
               <h5 class="mb-2 p-4 rounded-md text-center text-md bg-bleuPastel font-medium  ">
+                AGS Façade
+              </h5>
+              <p class="mb-4 text-sm">
+                J'ai eu la chance de pouvoir travailler sur la communication de
+                l'entreprise AGS Group. Pour le site web, j'ai créé l'identité
+                visuelle ainsi que la charte graphique. Le site tourne sur
+                Wordpress et Elementor. Pour réaliser l'animation en page
+                d'accueil, j'ai utilisé l'extension Slider Révolution.
+              </p>
+              <div className="grid  justify-items-center">
+                <a target="_blank" href="https://isolexmoselle.fr/">
+                  <button
+                    type="button"
+                    className=" bg-bleuPastel p-2 rounded-md "
+                  >
+                    Voir Projet
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center p-2 xl:w-4/12 lg:w-6/12   ">
+          <div class=" rounded-lg shadow-lg  border-2 p-2 border-orangePastel md:max-w-xl">
+            <div className="grid grid-cols-5 justify-items-center ">
+              <div>
+                <div class=" inline-block m-1 bg-orangePastel text-center align-baseline  rounded-full ">
+                  <WordpressLottie size="little" />
+                </div>
+                <p className="text-center text-sm">Wordpress</p>
+              </div>
+            </div>
+            <div class="p-2">
+              <h5 class="mb-2 p-4 rounded-md text-center text-md bg-orangePastel font-medium  ">
                 Sweet Galerie
               </h5>
               <p class="mb-4 text-sm">
@@ -384,7 +380,7 @@ function App() {
                 <a target="_blank" href="https://sweetgalerie.com/">
                   <button
                     type="button"
-                    className=" bg-bleuPastel p-2 rounded-md "
+                    className=" bg-orangePastel p-2 rounded-md "
                   >
                     Voir Projet
                   </button>
@@ -430,7 +426,7 @@ function App() {
           </div>
         </div>
         <div class="flex justify-center p-2 xl:w-4/12 lg:w-6/12   ">
-          <div class=" rounded-lg shadow-lg  border-2 p-2 border-orangePastel md:max-w-xl">
+          <div class=" rounded-lg shadow-lg  border-2 p-2 border-rosePastel md:max-w-xl">
             <div className="grid grid-cols-5 justify-items-center ">
               <div>
                 <div class=" inline-block m-1 bg-bleuPastel text-center align-baseline  rounded-full ">
@@ -440,7 +436,7 @@ function App() {
               </div>
             </div>
             <div class="p-2">
-              <h5 class="mb-2 p-4 rounded-md text-center text-md bg-orangePastel font-medium  ">
+              <h5 class="mb-2 p-4 rounded-md text-center text-md bg-rosePastel font-medium  ">
                 CRM AGS échafaudage
               </h5>
               <p class="mb-4 text-sm">
@@ -459,7 +455,7 @@ function App() {
                 >
                   <button
                     type="button"
-                    className=" bg-orangePastel p-2 rounded-md "
+                    className=" bg-rosePastel p-2 rounded-md "
                   >
                     Voir Projet
                   </button>
