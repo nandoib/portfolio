@@ -213,12 +213,12 @@ function App() {
                 Portfolio Nando IBBA
               </h5>
               <p class="mb-4  text-sm text-neutral-600 dark:text-neutral-200">
-                Création de ce portefolio dans le cadre de ma recherche d'un
-                poste de developpeur JavaScript Full Stack. Site sous React avec
-                TailWind. Utilisation de l'api FormSubmit pour la reception de
-                mail sans back.
+                Création de ce portfolio dans le cadre de ma recherche d'un
+                poste de developpeur JavaScript Full-Stack. Site sous React avec
+                TailWind. Utilisation de l'api FormSubmit pour la réception de
+                mails sans back.
               </p>
-              <div className="grid self-end justify-items-center">
+              <div className="grid self-end justify-items-center lg:mt-24 xl:mt-30">
                 <a
                   target="_blank"
                   href="https://github.com/nandoib/liste-attente-back"
@@ -238,13 +238,6 @@ function App() {
           <div class=" md:max-w-xl  xl:max-w-3xl  rounded-lg  shadow-lg dark:bg-neutral-700 border-2 p-2 border-bleuPastel">
             <div className="grid grid-cols-5 justify-items-center ">
               <div>
-                <div class=" inline-block m-1 bg-bleuPastel  text-center align-baseline  rounded-full font-boldtext-primary-700">
-                  <NodeJsLottie size="little" />
-                </div>
-                <p className="text-center text-sm">NodeJS </p>
-              </div>
-
-              <div>
                 <div class="inline-block m-1 bg-rosePastel text-center align-baseline  rounded-full font-boldtext-primary-700">
                   <ReactLottie size="little" />
                 </div>
@@ -253,15 +246,15 @@ function App() {
             </div>
             <div class="p-2">
               <h5 class="mb-2 p-4 rounded-md text-center text-md bg-bleuPastel font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-                Plateforme de Gestion de patientelle pour proffessions médical
+                Plateforme de Gestion de patientèle pour professions médicales
               </h5>
               <p class="mb-4  text-sm text-neutral-600 dark:text-neutral-200">
-                Les professionnel de santé rencontrent des problématique
+                Les professionnels de santé rencontrent des problématiques
                 concernant la mise en place de liste d'attente de prise en
-                charge. J'ai créer cette application pour permettre à une
-                orthophoniste de gagner enormément de temps en passant d'une
-                gestion manuelle à un gestion automatique et sécurisé de sa
-                liste d'attente. L'apllication permet aussi de programmer des
+                charge. J'ai créé cette application pour permettre à une
+                orthophoniste de gagner du temps en passant d'une gestion
+                manuelle à une gestion automatique et sécurisée de sa liste
+                d'attente. L'application permet aussi de programmer des
                 rendez-vous, un mail de rappel est envoyé la veille du
                 rendez-vous.
               </p>
@@ -304,14 +297,14 @@ function App() {
               </h5>
               <p class="mb-4  text-sm text-neutral-600 dark:text-neutral-200">
                 J'ai décidé de reprendre le projet 'CRM AGS' et de le
-                transformer en projet JavaScript, le front est en react et le
-                back est une API REST sous nodeJs avec express. Le projet a été
-                grandement modifié avec de nombreuse amélioration,
-                principalement coté UX. Des fonctionnalités supllémentaires ont
+                transformer en projet JavaScript, le front est en React et le
+                back est une API REST sous NodeJs avec Express. Le projet a été
+                grandement modifié avec de nombreuses améliorations,
+                principalement coté UX. Des fonctionnalités supplémentaires ont
                 également été ajoutées (Gestion d'équipe, objectifs (mensuel),
-                objectifs équipe,système de notification en temps réel, nouveau
-                système d'attribution de tâche). A l'heure actuelle, le projet
-                est toujours en développement.
+                objectifs d'équipe, système de notification en temps réel,
+                nouveau système d'attribution de tâche). À l'heure actuelle, le
+                projet est toujours en développement.
               </p>
               <div className="grid justify-items-center">
                 <a
@@ -345,12 +338,10 @@ function App() {
               </h5>
               <p class="mb-4 text-sm">
                 J'ai eu la chance de pouvoir travailler sur la communication de
-                l'entreprise AGS Group.
-                <br /> Pour le site web, j'ai creer l'identité visuelle ainsi
-                que la charte graphique. Le site tourne sur Wordpress et
-                Elementor.
-                <br /> Pour réaliser l'animation en page d'accueil, j'ai utilisé
-                l'extention Slider Révolution.
+                l'entreprise AGS Group. Pour le site web, j'ai créé l'identité
+                visuelle ainsi que la charte graphique. Le site tourne sur
+                Wordpress et Elementor. Pour réaliser l'animation en page
+                d'accueil, j'ai utilisé l'extension Slider Révolution.
               </p>
               <div className="grid  justify-items-center">
                 <a target="_blank" href="https://isolexmoselle.fr/">
@@ -380,13 +371,13 @@ function App() {
                 Sweet Galerie
               </h5>
               <p class="mb-4 text-sm">
-                Création d'une boutique de vetements pour femme. Création
+                Création d'une boutique de vêtements pour femme. Création
                 identité visuelle, charte graphique, logo, wireframes.
                 Intégration sur WooCommerce.
                 <br />
                 <b> Ajout de fonctionnalités : </b>
                 <br />
-                Newsletter (MailChimp), cartes cadeaux, inscription pour mailing
+                Newsletter (MailChimp), cartes cadeau, inscription pour mailing
                 retour en stock
               </p>
               <div className="grid justify-items-center">
@@ -414,13 +405,13 @@ function App() {
             </div>
             <div class="p-2">
               <h5 class="mb-2 p-4 rounded-md text-center text-md bg-rosePastel font-medium  ">
-                Paroisse protestante de Saint-Avold & Creutwald
+                Paroisses protestantes de Saint-Avold & Creutwald
               </h5>
               <p class="mb-4 text-sm">
-                Création du site web des paroisse protestante de Saint-Avold et
-                Creutzwald/Créhange (57). Site sur Wordpress (Elementor). Le
+                Création du site web des paroisses protestantes de Saint-Avold
+                et Creutzwald/Créhange (57). Site sur Wordpress (Elementor). Le
                 site dispose d'un espace blog catégorisé, d'un calendrier des
-                évenements, d'upload et de téléchargement de PDF.
+                événements, d'upload et de téléchargement de PDF.
               </p>
               <div className="grid justify-items-center">
                 <a
@@ -454,10 +445,10 @@ function App() {
               </h5>
               <p class="mb-4 text-sm">
                 L'entreprise utilisait un CRM spécialisé dans la gestion du
-                batiment (proGBat). Son nombre de fonctionnalités avancés non
-                nécéssaires rendait son utilisation complexe pour l'équipe
-                commercial et représentait un coût important à long terme
-                (license par salarié et par mois). C'est pourquoi, on m'a chargé
+                bâtiment (proGBat). Son nombre de fonctionnalités avancées
+                non-nécessaires rendait son utilisation complexe pour l'équipe
+                commerciale et représentait un coût important à long terme
+                (licence par salarié et par mois). C'est pourquoi, on m'a chargé
                 de la création d'un CRM simplifié répondant au besoin de la
                 société.
               </p>
