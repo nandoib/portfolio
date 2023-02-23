@@ -1,38 +1,234 @@
-.App {
-  text-align: center;
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #fff8e9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home {
+  font-family: "Poppins", sans-serif;
+
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainTitlesm {
+  font-size: 2.4rem;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.mainTitlemd {
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  text-transform: uppercase;
+}
+.mainTitlelg {
+  font-size: 4rem;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 3px;
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+.mainTitlexl {
+  font-size: 5rem;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 3px;
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mainTitlexxl {
+  font-size: 5rem;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 3px;
+  text-transform: uppercase;
+}
+
+.contactButton {
+  background-color: #072951;
+  width: 10em;
+  height: 4em;
+}
+
+.photoProfilsm {
+  height: 15em;
+  width: 15em;
+}
+.photoProfilmd {
+  height: 16em;
+  width: 16em;
+}
+.photoProfillg {
+  height: 22em;
+  width: 22em;
+}
+.photoProfilxl {
+  height: 28em;
+  width: 28em;
+}
+.photoProfilxxl {
+  height: 30em;
+  width: 30em;
+}
+
+.secondTitlesm {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1.5px;
+  text-transform: uppercase;
+}
+
+.secondTitlemd {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1.5px;
+  text-transform: uppercase;
+}
+
+.secondTitlelg {
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1.5px;
+  text-transform: uppercase;
+}
+.secondTitlexl {
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1.5px;
+  text-transform: uppercase;
+}
+.secondTitlexxl {
+  font-size: 4rem;
+  letter-spacing: 1px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  text-transform: uppercase;
+}
+
+.lottiesm {
+  height: 5em;
+  width: 5em;
+}
+
+.lottiemd {
+  height: 7em;
+  width: 7em;
+}
+
+.lottielg {
+  height: 8em;
+  width: 8em;
+}
+.lottiexl {
+  height: 9em;
+  width: 9em;
+}
+
+.lottiexxl {
+  height: 11em;
+  width: 11em;
+}
+
+.littleLottiesm {
+  height: 2.3em;
+  width: 2.3em;
+}
+
+.littleLottiemd {
+  height: 2.7em;
+  width: 2.7em;
+}
+
+.littleLottielg {
+  height: 3em;
+  width: 3em;
+}
+
+.littleLottiexl {
+  height: 3.2em;
+  width: 3.2em;
+}
+
+.littleLottiexxl {
+  height: 3.3em;
+  width: 3.3em;
+}
+
+.frontText {
+  background-color: #ffd2cc;
+}
+
+.backText {
+  background-color: #ffcc5f;
+}
+
+.outilsText {
+  background-color: #8ab7dd;
+}
+
+.hellosm {
+  position: absolute;
+  top: 68%;
+  left: -25%;
+}
+.hellomd {
+  position: absolute;
+  top: 68%;
+  left: -12%;
+}
+.hellolg {
+  position: absolute;
+  top: 68%;
+  left: -9%;
+}
+
+.helloxl {
+  position: absolute;
+  top: 68%;
+  left: -5%;
+}
+.helloxxl {
+  position: absolute;
+  top: 68%;
+  left: -5%;
+}
+
+.formeBleu1 {
+  z-index: -2;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.formeRose1 {
+  z-index: -1;
+  position: absolute;
+  top: 66%;
+  right: 0%;
+}
+
+.formeOrange2 {
+  z-index: -2;
+  position: absolute;
+  top: 130%;
+  left: 0%;
 }
