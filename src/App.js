@@ -49,11 +49,13 @@ function App() {
     <>
       <div className={` home h-screen p-8 grid`}>
         <div className="formeBleu1">{returnSizeFormeBleu()}</div>
-        <h1 className={` mainTitle${screenSize} text-center mt-10  lg:mt-20 `}>
+        <h1
+          className={` mainTitle${screenSize} text-center mt-10  lg:mt-20 xl:mt-4 `}
+        >
           Nando IBBA
         </h1>
 
-        <p className="text-center mt-8 text-sm font-bold  md:mt-16 lg:px-28 xl:px-60 lg:text-[1rem] ">
+        <p className="text-center mt-8 text-sm font-bold  md:mt-16 lg:px-28 xl:px-60 xl:mt-4 lg:text-[1rem] ">
           Passioné d'informatique depuis toujours. Anciennement responsable en
           développement commercial, en 2020, j'ai choisi de revenir à ma passion
           et de devenir developpeur web. J'utilise mes compétences dans ces deux
@@ -85,8 +87,8 @@ function App() {
         </div>
       </div>
 
-      <div>
-        <h2 className={` secondTitle${screenSize} text-center mt-14 lg:mt-20`}>
+      <div className="xl:mt-20">
+        <h2 className={` secondTitle${screenSize} text-center mt-14 lg:mt-25`}>
           Mes compétences
         </h2>
         <p className="text-center  mt-10 md:mt-14 ">

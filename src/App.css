@@ -65,20 +65,20 @@ body {
   width: 15em;
 }
 .photoProfilmd {
-  height: 16em;
-  width: 16em;
+  height: 18em;
+  width: 18em;
 }
 .photoProfillg {
+  height: 20em;
+  width: 20em;
+}
+.photoProfilxl {
   height: 22em;
   width: 22em;
 }
-.photoProfilxl {
-  height: 28em;
-  width: 28em;
-}
 .photoProfilxxl {
-  height: 30em;
-  width: 30em;
+  height: 25em;
+  width: 25em;
 }
 
 .secondTitlesm {
